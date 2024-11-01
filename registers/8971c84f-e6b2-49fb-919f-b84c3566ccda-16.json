@@ -1,0 +1,462 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700010,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "014ef7a5-b7e8-4011-8b81-d2f19b05f248"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO\n    INTO v_observacao\n    FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700011,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "bd3c9fd1-8fd1-41d7-91a6-75237aec9691"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700012,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "ea640416-541f-4ec3-a050-186d6b562f51"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700013,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "b8d40cce-3d6c-48ea-83a7-862cc327cf82"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO FROM DIC_EXPRESSAO;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO v_observacao FROM DIC_EXPRESSAO;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700014,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "ce3bfa13-3af8-4de1-8053-2a73c27aa9b2"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO\n    INTO v_observacao\n    FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO FROM DIC_EXPRESSAO;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        ''\n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 700015,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "9c8dc668-f880-493c-b206-546556d59155"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_VIA_DESC",
+      "old_value" : "CMDKLTD_VIA_DESC"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO\n    INTO v_observacao\n    FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_VIA_DESC AS\n    v_observacao DIC_EXPRESSAO.DS_REVISAO%TYPE;\nBEGIN\n   SELECT DS_REVISAO\n    INTO v_observacao\n    FROM DIC_EXPRESSAO\n    ORDER BY DBMS_RANDOM.VALUE\n    FETCH FIRST 1 ROWS ONLY;\n\n    INSERT INTO CMDKLTD_CUSTOM_REFACTORED (\n        NR_SEQUENCIA, DS_NAME\n    ) VALUES (\n        2,\n        v_observacao \n    );\n    \n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        RAISE_APPLICATION_ERROR(-20001, 'Erro ao cadastrar na CMDKLTD_CUSTOM_REFACTORED: ' || SQLERRM);\nEND CMDKLTD_VIA_DESC;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144738,
+      "old_value" : 10144738
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 800,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "188e2222-8a4c-4b94-b001-5f68e589f575"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1132124,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1132124,
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "01/11/2024 16:41:32",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Test expression 999999999",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "01/11/2024 16:41:32",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "01/11/2024 16:41:57",
+      "sequence" : 801,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "63cd3893-2b30-41da-bb82-6548cb666a57"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "ec35a422c706",
+      "os_user" : "root",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 15989,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "IE_SITUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "A",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LOCALE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "en_US",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_IDIOMA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "en",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Test expression",
+      "old_value" : null
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1132124,
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 15989,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "01/11/2024 16:41:33",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "01/11/2024 16:41:33",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    } ]
+  } ]
+}
