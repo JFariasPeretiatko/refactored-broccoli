@@ -23,6 +23,14 @@
   }, {
     "op" : "remove",
     "path" : "/attributes/code:682422212/label"
+  }, {
+    "op" : "replace",
+    "path" : "/attributes/code:682422213/gridLabel",
+    "value" : "NEUROLOGY/NEUROSURGERY"
+  }, {
+    "op" : "replace",
+    "path" : "/attributes/code:682422213/gridLabelExpressionCode",
+    "value" : 4
   } ],
   "type" : "PARTNER"
 }
