@@ -13,6 +13,14 @@
     "path" : "/attributes/code:682422203/nmTabelaRef",
     "value" : "PROC_INTERNO"
   }, {
+    "op" : "replace",
+    "path" : "/attributes/code:682422192/gridLabel",
+    "value" : "GYNECOLOGICAL SURGERY"
+  }, {
+    "op" : "replace",
+    "path" : "/attributes/code:682422192/gridLabelExpressionCode",
+    "value" : 3
+  }, {
     "op" : "add",
     "path" : "/attributes/code:682422192/gridSequence",
     "value" : 2
@@ -31,6 +39,10 @@
     "op" : "replace",
     "path" : "/attributes/code:682422213/gridLabelExpressionCode",
     "value" : 4
+  }, {
+    "op" : "replace",
+    "path" : "/attributes/code:682422213/qtLargura",
+    "value" : 150
   } ],
   "type" : "PARTNER"
 }
