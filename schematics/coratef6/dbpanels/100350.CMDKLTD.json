@@ -1,0 +1,180 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "replace",
+    "path" : "/allAttributes/:21",
+    "value" : "DS_PROCEDIMENTO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:22",
+    "value" : "DS_PROCEDIMENTO_ACOMP"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:23",
+    "value" : "DS_PROCEDIMENTO_ACOMP_LOC"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:24",
+    "value" : "DS_PROCEDIMENTO_LOC"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:25",
+    "value" : "DT_ATUALIZACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:26",
+    "value" : "DT_ATUALIZACAO_NREC"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:27",
+    "value" : "IE_EXIBE_PFCS"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:28",
+    "value" : "IE_TIPO_ACOMOD_TISS"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:29",
+    "value" : "NM_USUARIO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:10",
+    "value" : "NR_SEQ_PROCED_INT"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:11",
+    "value" : "CD_PROCEDIMENTO_ACOMP_LOC"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:12",
+    "value" : "IE_CLASSIFICACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:13",
+    "value" : "DS_CLASSIFICACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:14",
+    "value" : "IE_ORIGEM_PROCED_ACOMP"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:15",
+    "value" : "IE_SEM_ACOMODACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:16",
+    "value" : "IE_SITUACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:17",
+    "value" : "IE_GERA_INTERN_PREV_GV"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:18",
+    "value" : "IE_ORIGEM_PROCED"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:19",
+    "value" : "CD_PROCEDIMENTO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:1",
+    "value" : "DS_ATRIBUTO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:2",
+    "value" : "CD_NIVEL_ACOMODACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:3",
+    "value" : "DS_COR"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:4",
+    "value" : "DS_TIPO_ACOMODACAO"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:5",
+    "value" : "DS_CURTA_ACOMOD"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:6",
+    "value" : "HR_MARGEM_ANT_VIRDIA"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:7",
+    "value" : "HR_MARGEM_POS_VIRDIA"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:8",
+    "value" : "HR_VIRADA_DIARIA"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:9",
+    "value" : "CD_PROCEDIMENTO_LOC"
+  }, {
+    "op" : "replace",
+    "path" : "/allAttributes/:20",
+    "value" : "CD_PROCEDIMENTO_ACOMP"
+  }, {
+    "op" : "add",
+    "path" : "/allAttributes/:30",
+    "value" : "NM_USUARIO_NREC"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmAtributoCd",
+    "value" : "NR_SEQUENCIA"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmAtributoDs",
+    "value" : "DS_PROC_EXAME"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmTabelaRef",
+    "value" : "PROC_INTERNO"
+  }, {
+    "op" : "remove",
+    "path" : "/attributes/code:682422212/label"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:446187244",
+    "value" : {
+      "IeTooltip" : false,
+      "alinharDireita" : false,
+      "code" : 446187244,
+      "componente" : "TEXTBOX",
+      "criarDescFk" : false,
+      "criarDescricao" : false,
+      "dbClickReadOnly" : false,
+      "dbPanelComponentType" : "DE",
+      "displayCurrentTime" : true,
+      "dsValores" : "select 1 from dual",
+      "enabled" : true,
+      "foreignKey" : false,
+      "gridLabel" : "NEONATAL ICU",
+      "gridLabelExpressionCode" : 10,
+      "gridSequence" : 1,
+      "ieCustomAttribute" : false,
+      "ieInfoPatient" : false,
+      "ieVisible" : true,
+      "isDialectField" : false,
+      "label" : "NEONATAL ICU",
+      "labelExpressionCode" : 10,
+      "largura" : 12,
+      "leftAnchored" : false,
+      "lineBreak" : false,
+      "logOptions" : { },
+      "mandatory" : true,
+      "nmAtributo" : "DS_ATRIBUTO",
+      "ordem" : 1,
+      "primaryKey" : false,
+      "qtLargura" : 100,
+      "readOnly" : true,
+      "sensitive" : false,
+      "tabStop" : true,
+      "tipoAtributo" : "FUNCTION",
+      "widthHTML" : 100
+    }
+  } ],
+  "type" : "PARTNER"
+}
