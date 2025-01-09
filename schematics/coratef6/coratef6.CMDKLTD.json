@@ -8,6 +8,10 @@
     "op" : "add",
     "path" : "/children/code:43938/children/code:1073/children/code:1074/children/code:1075/children/code:44015/children/code:1062/expressionDescription",
     "value" : "Browser - Tab"
+  }, {
+    "op" : "replace",
+    "path" : "/children/code:43938/children/code:1073/children/code:1074/children/code:1075/properties/pageSize",
+    "value" : 10
   } ],
   "type" : "PARTNER"
 }
