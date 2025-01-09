@@ -1,0 +1,28 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmAtributoCd",
+    "value" : "NR_SEQUENCIA"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmAtributoDs",
+    "value" : "DS_PROC_EXAME"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422203/nmTabelaRef",
+    "value" : "PROC_INTERNO"
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422192/gridSequence",
+    "value" : 2
+  }, {
+    "op" : "add",
+    "path" : "/attributes/code:682422191/gridSequence",
+    "value" : 1
+  }, {
+    "op" : "remove",
+    "path" : "/attributes/code:682422212/label"
+  } ],
+  "type" : "PARTNER"
+}

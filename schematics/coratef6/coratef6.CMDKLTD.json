@@ -11,7 +11,7 @@
   }, {
     "op" : "replace",
     "path" : "/children/code:43938/children/code:1073/children/code:1074/children/code:1075/properties/pageSize",
-    "value" : 10
+    "value" : 15
   } ],
   "type" : "PARTNER"
 }
