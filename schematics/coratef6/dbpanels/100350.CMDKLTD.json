@@ -78,12 +78,8 @@
     "value" : "CD_PROCEDIMENTO"
   }, {
     "op" : "replace",
-    "path" : "/allAttributes/:0",
-    "value" : "DS_DESCR"
-  }, {
-    "op" : "replace",
     "path" : "/allAttributes/:1",
-    "value" : "CD_TIPO_ACOMODACAO"
+    "value" : "DS_DESCR"
   }, {
     "op" : "replace",
     "path" : "/allAttributes/:2",
@@ -168,7 +164,7 @@
       "logOptions" : { },
       "mandatory" : false,
       "nmAtributo" : "DS_DESCR",
-      "ordem" : 0,
+      "ordem" : 1,
       "primaryKey" : false,
       "qtLargura" : 120,
       "readOnly" : true,
