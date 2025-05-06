@@ -1,0 +1,13 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/children/code:43938/children/code:1073/children/code:1074/children/code:1075/children/code:44015/children/code:1062/children/code:1063/children/code:1067/children/code:1068/children/code:1076/children/code:1129530/menuItems/code:1091174/name",
+    "value" : "Copy rule to insurances"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:43938/children/code:1073/children/code:1074/children/code:1075/children/code:44015/children/code:1062/expressionDescription",
+    "value" : "Browser - Tab"
+  } ],
+  "type" : "PARTNER"
+}
