@@ -3,14 +3,15 @@
     "IE_TIPO_ATRIBUTO" : "VARCHAR2",
     "NM_TABLE_REF" : "CMDKLTD_ADAIMP_1",
     "NR_SEQUENCIA_CRIACAO" : "1",
+    "QT_DECIMAIS" : "0",
     "NM_USUARIO" : "cmdk_adm",
     "GUID_EXTENSION" : "acbe34c6-8b61-4da3-b608-ee10a07ecb83",
-    "QT_TAMANHO" : "255",
+    "QT_TAMANHO" : "500",
     "NM_TABELA" : "ABDAMED_IMPORT",
     "NM_ATRIBUTO" : "NR_NOME_USUARIO",
     "DT_ATUALIZACAO" : "01/10/2025 14:00:26",
     "IE_OBRIGATORIO" : "N",
-    "$operation" : "CREATE"
+    "$operation" : "MERGE"
   } ],
   "TABELA_SISTEMA" : [ {
     "IE_CALLSTACK" : "N",
@@ -152,14 +153,16 @@
       "IE_INFORMACAO_SENSIVEL" : "N",
       "NM_USUARIO" : "cmdk_adm",
       "IE_LOG_EXCLUSAO" : "S",
-      "QT_TAMANHO" : "255",
+      "QT_TAMANHO" : "500",
       "NM_TABELA" : "CMDKLTD_ADAIMP_1",
       "NM_ATRIBUTO" : "NR_NOME_USUARIO",
-      "NR_SEQUENCIA_CRIACAO" : "38",
+      "NM_ATRIBUTO_PAI" : "",
+      "NR_SEQUENCIA_CRIACAO" : "1",
+      "QT_DECIMAIS" : "0",
       "DS_VALORES" : "12L",
       "DT_ATUALIZACAO" : "01/10/2025 14:00:27",
       "IE_OBRIGATORIO" : "N",
-      "$operation" : "CREATE"
+      "$operation" : "MERGE"
     } ],
     "INDICE_ATRIBUTO" : [ {
       "DS_INDICE_FUNCTION" : "",
