@@ -1,18 +1,4 @@
 {
-  "TABELA_ATRIBUTO_CUSTOM" : [ {
-    "IE_TIPO_ATRIBUTO" : "VARCHAR2",
-    "NM_TABLE_REF" : "CMDKLTD_ADAIMP_1",
-    "NR_SEQUENCIA_CRIACAO" : "1",
-    "QT_DECIMAIS" : "0",
-    "NM_USUARIO" : "cmdk_adm",
-    "GUID_EXTENSION" : "acbe34c6-8b61-4da3-b608-ee10a07ecb83",
-    "QT_TAMANHO" : "500",
-    "NM_TABELA" : "ABDAMED_IMPORT",
-    "NM_ATRIBUTO" : "NR_NOME_USUARIO",
-    "DT_ATUALIZACAO" : "01/10/2025 14:00:26",
-    "IE_OBRIGATORIO" : "N",
-    "$operation" : "MERGE"
-  } ],
   "TABELA_SISTEMA" : [ {
     "IE_CALLSTACK" : "N",
     "DT_CRIACAO" : "01/10/2025 13:54:56",
@@ -211,5 +197,19 @@
     "DS_TABELA" : "Utilizada como resposit\u00f3rio controle do tipo de importa\u00e7\u00e3o dos arquivos do cat\u00e1logo do ABDAMED.",
     "IE_CRIA_LOG_LOCAL" : "",
     "$operation" : "CREATE"
+  } ],
+  "TABELA_ATRIBUTO_CUSTOM" : [ {
+    "IE_TIPO_ATRIBUTO" : "VARCHAR2",
+    "NM_TABLE_REF" : "CMDKLTD_ADAIMP_1",
+    "NR_SEQUENCIA_CRIACAO" : "1",
+    "QT_DECIMAIS" : "0",
+    "NM_USUARIO" : "cmdk_adm",
+    "GUID_EXTENSION" : "acbe34c6-8b61-4da3-b608-ee10a07ecb83",
+    "QT_TAMANHO" : "500",
+    "NM_TABELA" : "ABDAMED_IMPORT",
+    "NM_ATRIBUTO" : "NR_NOME_USUARIO",
+    "DT_ATUALIZACAO" : "01/10/2025 14:00:26",
+    "IE_OBRIGATORIO" : "N",
+    "$operation" : "MERGE"
   } ]
 }
