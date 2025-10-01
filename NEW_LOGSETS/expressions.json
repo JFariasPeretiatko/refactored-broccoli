@@ -22,27 +22,26 @@
     "DT_ATUALIZACAO" : "26/09/2025 13:34:38",
     "$operation" : "CREATE"
   }, {
-    "DT_ATUALIZACAO_NREC" : "12/08/2025 14:22:04",
+    "DT_ATUALIZACAO_NREC" : "01/10/2025 14:48:49",
     "DIC_EXPRESSAO_IDIOMA" : [ {
-      "DT_ATUALIZACAO_NREC" : "01/10/2025 14:23:25",
+      "DT_ATUALIZACAO_NREC" : "01/10/2025 14:48:49",
       "DS_LOCALE" : "en_US",
       "DS_IDIOMA" : "en",
       "NR_SEQUENCIA" : "18464",
       "NM_USUARIO" : "cmdk_adm",
-      "IE_SITUACAO" : "A",
       "NM_USUARIO_NREC" : "cmdk_adm",
       "CD_EXPRESSAO" : "1138708",
       "DS_EXPRESSAO" : "Testes 222",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "12/08/2025 14:22:04",
-      "$operation" : "UPDATE"
+      "DT_ATUALIZACAO" : "01/10/2025 14:48:49",
+      "$operation" : "DELETE"
     } ],
     "DS_GLOSSARIO" : "Test glossary changes",
     "NM_USUARIO" : "cmdk_adm",
     "NM_USUARIO_NREC" : "cmdk_adm",
     "CD_EXPRESSAO" : "1138708",
-    "DT_ATUALIZACAO" : "12/08/2025 14:22:04",
-    "$operation" : "UPDATE"
+    "DT_ATUALIZACAO" : "01/10/2025 14:48:49",
+    "$operation" : "DELETE"
   }, {
     "DT_ATUALIZACAO_NREC" : "01/10/2025 14:36:29",
     "DIC_EXPRESSAO_IDIOMA" : [ {
