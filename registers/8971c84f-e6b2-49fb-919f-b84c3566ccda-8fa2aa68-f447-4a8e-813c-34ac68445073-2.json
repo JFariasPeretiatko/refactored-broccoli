@@ -1,0 +1,311 @@
+[ {
+  "event_info" : {
+    "date" : "10/12/2025 12:17:55",
+    "sequence" : 50,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "cba94b22-b54f-408b-94ae-dcdd3e68655b"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "naruto"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_GLOSSARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Glossary expression 2025",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 12:17:55",
+    "sequence" : 51,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "4f7715af-470e-4a20-9811-768215d9c025"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "naruto"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 25233,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LOCALE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "en_US",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_IDIOMA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "en",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expression test",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 25233,
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "naruto",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "naruto",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 12:17:55",
+    "sequence" : 52,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "ab9221bc-2015-40a3-9874-e79a3e192d9d"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "naruto"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LOCALE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt_BR",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_IDIOMA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expression test",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:26",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 12:17:55",
+    "sequence" : 100,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "DIC_EXPRESSAO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "7b5dc4d4-47dc-4398-98c3-6d857ffae0b0"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "naruto"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : 1145038
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : 1145038
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 12:17:55",
+    "sequence" : 101,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "d2c70c8c-497a-411d-84b3-90febc999ce9"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "naruto"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : 1145038
+  } ],
+  "column_values" : [ {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expression test CMDK",
+    "old_value" : "Expression test"
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : 1145038
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145038,
+    "old_value" : 1145038
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 12:17:42",
+    "old_value" : "10/12/2025 12:17:26"
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "naruto",
+    "old_value" : "jfperet"
+  } ]
+} ]
