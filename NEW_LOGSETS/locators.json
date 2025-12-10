@@ -1,0 +1,41 @@
+{
+  "TIPO_LOCALIZAR" : [ {
+    "$operation" : "CREATE",
+    "DS_LOCALIZADOR" : "Materiais V2",
+    "IE_APRESENTACAO" : "N",
+    "TIPO_LOCALIZADOR_CLIENTE" : [ ],
+    "NM_USUARIO" : "jfperet",
+    "IE_LOCALIZADOR_INTERNO" : "",
+    "DT_ATUALIZACAO_NREC" : "20/11/2025 14:03:04",
+    "IE_RESTRINGE_ESTAB" : "N",
+    "NR_SEQUENCIA" : "25002",
+    "TIPO_LOCALIZAR_ATRIBUTO" : [ ],
+    "DS_SQL" : "select *\r\nfrom material\r\nwhere ie_tipo_material <> 8\r\norder by ds_material",
+    "NM_USUARIO_NREC" : "jfperet",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "20/11/2025 14:03:04"
+  } ],
+  "TIPO_LOCALIZAR_ATRIBUTO" : [ {
+    "$operation" : "CREATE",
+    "IE_TIPO_ATRIBUTO" : "VARCHAR2",
+    "DS_ITEM" : "item",
+    "IE_OCULTAR_RESTRICAO" : "N",
+    "NR_SEQ_TIPO_LOCALIZAR" : "25002",
+    "IE_IGNORAR_ACENTUACAO" : "N",
+    "NM_USUARIO" : "jfperet",
+    "IE_GRID" : "N",
+    "IE_FOCUS" : "N",
+    "NM_ATRIBUTO" : "MATERIAL_ITEM",
+    "CD_EXP_ITEM" : "1",
+    "DT_ATUALIZACAO_NREC" : "20/11/2025 14:04:02",
+    "IE_TIPO_SELECAO" : "E",
+    "IE_UTILIZA_TARJA_MAGNETICA" : "N",
+    "NR_SEQ_APRESENT" : "1",
+    "NR_SEQUENCIA" : "39351",
+    "IE_TIPO_RESTRICAO" : "1",
+    "NM_USUARIO_NREC" : "jfperet",
+    "IE_RESULTADO" : "N",
+    "DT_ATUALIZACAO" : "20/11/2025 14:04:02",
+    "IE_DESC_RESULT" : "N"
+  } ]
+}
