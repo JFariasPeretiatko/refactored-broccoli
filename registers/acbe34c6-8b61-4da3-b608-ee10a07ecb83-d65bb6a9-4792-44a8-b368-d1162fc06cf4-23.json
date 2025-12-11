@@ -1,0 +1,424 @@
+[ {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1050,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "5945a5eb-46c5-4011-83ba-eaca181b81dc"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145046,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145046,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:18:20",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_GLOSSARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "expressao teste 1111111",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:18:20",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1051,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "c11d0aaf-c4f4-4a6c-860f-9c61e8f07ae2"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145046,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LOCALE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt_BR",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_IDIOMA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expressao teste",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145046,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145046,
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:18:20",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:18:20",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1100,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "a2700050-438c-446c-b5fb-eb8a6067a4e8"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145047,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145047,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:23:56",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_GLOSSARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expressao custom 100010",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:23:56",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1101,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "cf822d62-fa21-4efc-a00f-93d358d1dfe0"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145047,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LOCALE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt_BR",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_IDIOMA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Expressao custom",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145047,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145047,
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:23:57",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:23:57",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1150,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "4342741e-bda6-4d62-944b-5d831e0b719d"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145048,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145048,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:29:58",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_GLOSSARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Nova expressao teste glossary",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:29:58",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "10/12/2025 10:30:10",
+    "sequence" : 1151,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DIC_EXPRESSAO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "jfperet",
+    "guid" : "1d6b85fd-20a9-415f-99f2-8d3c01037954"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY321275",
+    "os_user" : "320159315",
+    "tasy_user" : "jfperet"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145048,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LOCALE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt_BR",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_IDIOMA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "pt",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_EXPRESSAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Nova expressao",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXPRESSAO",
+    "data_type" : "NUMBER",
+    "new_value" : 1145048,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 1145048,
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:29:58",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 10:29:58",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "jfperet",
+    "old_value" : null
+  } ]
+} ]
