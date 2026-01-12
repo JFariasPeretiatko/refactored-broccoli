@@ -1,46 +1,25 @@
 {
   "DIC_EXPRESSAO" : [ {
-    "$operation" : "DELETE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
-    "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "DELETE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
-      "DS_LOCALE" : "pt_BR",
-      "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1146334",
-      "NM_USUARIO" : "jfperet",
-      "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1146334",
-      "DS_EXPRESSAO" : "Teste geral",
-      "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
-    } ],
-    "DS_GLOSSARIO" : "Teste geral glosario",
-    "NM_USUARIO" : "jfperet",
-    "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1146334",
-    "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
-  }, {
     "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:39:24",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 10:05:27",
     "DIC_EXPRESSAO_IDIOMA" : [ {
       "$operation" : "CREATE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:42:09",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 10:05:27",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1146346",
-      "NM_USUARIO" : "jfperet",
+      "NR_SEQUENCIA" : "1146587",
+      "NM_USUARIO" : "naruto",
       "IE_SITUACAO" : "A",
-      "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1146346",
-      "DS_EXPRESSAO" : "Expressao teste geral",
+      "NM_USUARIO_NREC" : "naruto",
+      "CD_EXPRESSAO" : "1146587",
+      "DS_EXPRESSAO" : "Expressao teste geral 12",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:42:09"
+      "DT_ATUALIZACAO" : "12/01/2026 10:05:27"
     } ],
-    "DS_GLOSSARIO" : "Expressao teste geral",
-    "NM_USUARIO" : "jfperet",
-    "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1146346",
-    "DT_ATUALIZACAO" : "09/01/2026 15:39:24"
+    "DS_GLOSSARIO" : "Expressao glossary test",
+    "NM_USUARIO" : "naruto",
+    "NM_USUARIO_NREC" : "naruto",
+    "CD_EXPRESSAO" : "1146587",
+    "DT_ATUALIZACAO" : "12/01/2026 10:05:27"
   } ]
 }
