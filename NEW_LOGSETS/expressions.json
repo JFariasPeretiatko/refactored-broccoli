@@ -1,10 +1,10 @@
 {
   "DIC_EXPRESSAO" : [ {
     "$operation" : "DELETE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:47",
     "DIC_EXPRESSAO_IDIOMA" : [ {
       "$operation" : "DELETE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:47",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
       "NR_SEQUENCIA" : "1146334",
@@ -13,34 +13,55 @@
       "CD_EXPRESSAO" : "1146334",
       "DS_EXPRESSAO" : "Teste geral",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
+      "DT_ATUALIZACAO" : "12/01/2026 09:54:47"
     } ],
     "DS_GLOSSARIO" : "Teste geral glosario",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
     "CD_EXPRESSAO" : "1146334",
-    "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
+    "DT_ATUALIZACAO" : "12/01/2026 09:54:47"
   }, {
-    "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:39:24",
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:47",
     "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "CREATE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:42:09",
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:47",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
       "NR_SEQUENCIA" : "1146346",
       "NM_USUARIO" : "jfperet",
-      "IE_SITUACAO" : "A",
       "NM_USUARIO_NREC" : "jfperet",
       "CD_EXPRESSAO" : "1146346",
       "DS_EXPRESSAO" : "Expressao teste geral",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:42:09"
+      "DT_ATUALIZACAO" : "12/01/2026 09:54:47"
     } ],
     "DS_GLOSSARIO" : "Expressao teste geral",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
     "CD_EXPRESSAO" : "1146346",
-    "DT_ATUALIZACAO" : "09/01/2026 15:39:24"
+    "DT_ATUALIZACAO" : "12/01/2026 09:54:47"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:17",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 09:54:17",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146585",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146585",
+      "DS_EXPRESSAO" : "Bloop, snazzle, wumble, fripple, glorp, zing, quaddle, bingle, flumper, dinkle, crizzle, zop, twizzle, nabber, squink, gloop, jizzle, poodle, cronk, blurf.",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "12/01/2026 09:54:17"
+    } ],
+    "DS_GLOSSARIO" : "Bloop, snazzle, wumble, fripple, glorp, zing, quaddle, bingle, flumper, dinkle, crizzle, zop, twizzle, nabber, squink, gloop, jizzle, poodle, cronk, blurf.",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146585",
+    "DT_ATUALIZACAO" : "12/01/2026 09:54:17"
   } ]
 }
