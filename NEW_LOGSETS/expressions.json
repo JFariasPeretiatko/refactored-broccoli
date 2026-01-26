@@ -1,10 +1,10 @@
 {
   "DIC_EXPRESSAO" : [ {
     "$operation" : "DELETE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
     "DIC_EXPRESSAO_IDIOMA" : [ {
       "$operation" : "DELETE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:54:50",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
       "NR_SEQUENCIA" : "1146334",
@@ -13,34 +13,285 @@
       "CD_EXPRESSAO" : "1146334",
       "DS_EXPRESSAO" : "Teste geral",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
     } ],
     "DS_GLOSSARIO" : "Teste geral glosario",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
     "CD_EXPRESSAO" : "1146334",
-    "DT_ATUALIZACAO" : "09/01/2026 15:54:50"
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
   }, {
-    "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "09/01/2026 15:39:24",
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
     "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "CREATE",
-      "DT_ATUALIZACAO_NREC" : "09/01/2026 15:42:09",
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
       "NR_SEQUENCIA" : "1146346",
       "NM_USUARIO" : "jfperet",
-      "IE_SITUACAO" : "A",
       "NM_USUARIO_NREC" : "jfperet",
       "CD_EXPRESSAO" : "1146346",
       "DS_EXPRESSAO" : "Expressao teste geral",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/01/2026 15:42:09"
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
     } ],
     "DS_GLOSSARIO" : "Expressao teste geral",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
     "CD_EXPRESSAO" : "1146346",
-    "DT_ATUALIZACAO" : "09/01/2026 15:39:24"
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146585",
+      "NM_USUARIO" : "jfperet",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146585",
+      "DS_EXPRESSAO" : "Bloop, snazzle, wumble, fripple, glorp, zing, quaddle, bingle, flumper, dinkle, crizzle, zop, twizzle, nabber, squink, gloop, jizzle, poodle, cronk, blurf.",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+    } ],
+    "DS_GLOSSARIO" : "Bloop, snazzle, wumble, fripple, glorp, zing, quaddle, bingle, flumper, dinkle, crizzle, zop, twizzle, nabber, squink, gloop, jizzle, poodle, cronk, blurf.",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146585",
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+  }, {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 14:16:58",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "UPDATE",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 14:11:07",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146602",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146602",
+      "DS_EXPRESSAO" : "Expressao A user",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "12/01/2026 14:11:07"
+    } ],
+    "DS_GLOSSARIO" : "Glossary expression user 2",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146602",
+    "DT_ATUALIZACAO" : "12/01/2026 14:11:07"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146603",
+      "NM_USUARIO" : "jfperet",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146603",
+      "DS_EXPRESSAO" : "Expressao TESTE A",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+    } ],
+    "DS_GLOSSARIO" : "Expressao TESTE a Glossary",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146603",
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146607",
+      "NM_USUARIO" : "jfperet",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146607",
+      "DS_EXPRESSAO" : "Expressao TESTE B",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+    } ],
+    "DS_GLOSSARIO" : "Expressao Glossary B",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146607",
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+  }, {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "19/01/2026 10:17:57",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "MERGE",
+      "DT_ATUALIZACAO_NREC" : "19/01/2026 10:17:58",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146608",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146608",
+      "DS_EXPRESSAO" : "Mega teste EXPRESSAO ABS",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "19/01/2026 10:17:57"
+    } ],
+    "DS_GLOSSARIO" : "Expressao glossary AB",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146608",
+    "DT_ATUALIZACAO" : "19/01/2026 10:17:57"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "12/01/2026 16:50:55",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "MERGE",
+      "DT_ATUALIZACAO_NREC" : "12/01/2026 16:50:55",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146609",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146609",
+      "DS_EXPRESSAO" : "Expressao teste OMEPRAZOL",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "12/01/2026 16:50:55"
+    } ],
+    "DS_GLOSSARIO" : "Expressao teste OMEPRAZOL",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146609",
+    "DT_ATUALIZACAO" : "12/01/2026 16:50:55"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "2026-01-26 10:46:59",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146611",
+      "NM_USUARIO" : "jfperet",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146611",
+      "DS_EXPRESSAO" : "Expressao A",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+    } ],
+    "DS_GLOSSARIO" : "Expressao A Glossary",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146611",
+    "DT_ATUALIZACAO" : "2026-01-26 10:46:59"
+  }, {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "13/01/2026 10:49:09",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "MERGE",
+      "DT_ATUALIZACAO_NREC" : "13/01/2026 10:49:09",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146612",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146612",
+      "DS_EXPRESSAO" : "Expressao OOOOXXX",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "13/01/2026 10:49:09"
+    } ],
+    "DS_GLOSSARIO" : "Expressao 1 Glossary",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146612",
+    "DT_ATUALIZACAO" : "13/01/2026 10:49:09"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "16/01/2026 10:39:29",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "16/01/2026 10:39:29",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1146918",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1146918",
+      "DS_EXPRESSAO" : "Violeta",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "16/01/2026 10:39:29"
+    } ],
+    "DS_GLOSSARIO" : "Violeta - Expression test",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1146918",
+    "DT_ATUALIZACAO" : "16/01/2026 10:39:29"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "26/01/2026 09:37:30",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "26/01/2026 09:37:30",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1147634",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1147634",
+      "DS_EXPRESSAO" : "Teste express\u00e3o geral",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "26/01/2026 09:37:30"
+    } ],
+    "DS_GLOSSARIO" : "Teste express\u00e3o geral \u00e9\u00e3\u00f3\u00f5\"/?!@#!*(&%!)_{}\u00a8P<><",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1147634",
+    "DT_ATUALIZACAO" : "26/01/2026 09:37:30"
+  }, {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "19/01/2026 10:04:25",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "UPDATE",
+      "DT_ATUALIZACAO_NREC" : "26/01/2026 10:46:54",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1147048",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1147048",
+      "DS_EXPRESSAO" : "Test\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9;a;a;a;\u00e1\u00e3",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "19/01/2026 10:04:25"
+    } ],
+    "DS_GLOSSARIO" : "Testsssssasdasdasdasda",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1147048",
+    "DT_ATUALIZACAO" : "19/01/2026 10:04:25"
+  } ],
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "14/01/2026 09:28:34",
+    "DS_LOCALE" : "es_AR",
+    "DS_IDIOMA" : "es",
+    "NR_SEQUENCIA" : "25855",
+    "NM_USUARIO" : "jfperet",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "299324",
+    "DS_EXPRESSAO" : "Teste XW",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "14/01/2026 09:28:34"
   } ]
 }
