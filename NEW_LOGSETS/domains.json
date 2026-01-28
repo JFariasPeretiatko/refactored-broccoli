@@ -1,0 +1,30 @@
+{
+  "VALOR_DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "29",
+    "NM_USUARIO" : "jfperet",
+    "CD_EXP_VALOR_DOMINIO" : "1",
+    "DS_VALOR_DOMINIO" : "Teste9999999",
+    "DT_ATUALIZACAO" : "28/01/2026 14:22:16",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "30",
+    "NM_USUARIO" : "jfperet",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGIA",
+    "DT_ATUALIZACAO" : "28/01/2026 14:23:26",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "31",
+    "NM_USUARIO" : "jfperet",
+    "CD_EXP_VALOR_DOMINIO" : "1",
+    "DS_VALOR_DOMINIO" : "Teste9999999",
+    "DT_ATUALIZACAO" : "28/01/2026 14:25:37",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
