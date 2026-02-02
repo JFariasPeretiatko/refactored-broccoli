@@ -1,0 +1,42 @@
+{
+  "TIPO_LOCALIZAR_ATRIBUTO" : [ {
+    "$operation" : "CREATE",
+    "IE_TIPO_ATRIBUTO" : "LONG",
+    "CD_DOMINIO" : "8288",
+    "DS_ITEM" : "1",
+    "IE_OCULTAR_RESTRICAO" : "N",
+    "NR_SEQ_TIPO_LOCALIZAR" : "26825",
+    "IE_IGNORAR_ACENTUACAO" : "N",
+    "NM_USUARIO" : "naruto",
+    "IE_GRID" : "N",
+    "IE_FOCUS" : "N",
+    "NM_ATRIBUTO" : "1",
+    "CD_EXP_ITEM" : "2",
+    "DT_ATUALIZACAO_NREC" : "02/02/2026 11:42:56",
+    "IE_TIPO_SELECAO" : "A",
+    "IE_UTILIZA_TARJA_MAGNETICA" : "N",
+    "NR_SEQ_APRESENT" : "1",
+    "NR_SEQUENCIA" : "40227",
+    "IE_TIPO_RESTRICAO" : "1",
+    "NM_USUARIO_NREC" : "naruto",
+    "IE_RESULTADO" : "N",
+    "DT_ATUALIZACAO" : "02/02/2026 11:42:56",
+    "IE_DESC_RESULT" : "N"
+  } ],
+  "TIPO_LOCALIZAR" : [ {
+    "$operation" : "CREATE",
+    "DS_LOCALIZADOR" : "Test",
+    "IE_APRESENTACAO" : "N",
+    "TIPO_LOCALIZADOR_CLIENTE" : [ ],
+    "NM_USUARIO" : "naruto",
+    "IE_LOCALIZADOR_INTERNO" : "CorAte_fw",
+    "DT_ATUALIZACAO_NREC" : "02/02/2026 11:38:32",
+    "IE_RESTRINGE_ESTAB" : "N",
+    "DS_ARVORE" : "Test",
+    "NR_SEQUENCIA" : "26825",
+    "TIPO_LOCALIZAR_ATRIBUTO" : [ ],
+    "DS_SQL" : "SELECT 1 FROM dual;",
+    "NM_USUARIO_NREC" : "naruto",
+    "DT_ATUALIZACAO" : "02/02/2026 11:38:32"
+  } ]
+}
