@@ -1,0 +1,24 @@
+{
+  "TIPO_LOCALIZAR_ATRIBUTO" : [ {
+    "$operation" : "CREATE",
+    "IE_TIPO_ATRIBUTO" : "NUMBER",
+    "DS_ITEM" : "NR_S",
+    "IE_OCULTAR_RESTRICAO" : "N",
+    "NR_SEQ_TIPO_LOCALIZAR" : "27195",
+    "IE_IGNORAR_ACENTUACAO" : "N",
+    "NM_USUARIO" : "jfperet",
+    "IE_GRID" : "N",
+    "IE_FOCUS" : "N",
+    "NM_ATRIBUTO" : "NR_S",
+    "DT_ATUALIZACAO_NREC" : "10/02/2026 09:52:17",
+    "IE_TIPO_SELECAO" : "C",
+    "IE_UTILIZA_TARJA_MAGNETICA" : "N",
+    "NR_SEQ_APRESENT" : "1",
+    "NR_SEQUENCIA" : "40373",
+    "IE_TIPO_RESTRICAO" : "1",
+    "NM_USUARIO_NREC" : "jfperet",
+    "IE_RESULTADO" : "N",
+    "DT_ATUALIZACAO" : "10/02/2026 09:52:17",
+    "IE_DESC_RESULT" : "N"
+  } ]
+}
