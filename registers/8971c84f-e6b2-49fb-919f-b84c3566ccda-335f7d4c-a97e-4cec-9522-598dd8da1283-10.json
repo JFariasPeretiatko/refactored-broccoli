@@ -1,0 +1,109 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "11/02/2026 13:54:27",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 500009,
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "jfperet",
+      "guid" : "cd1ae549-631a-4dfc-8442-903f053e54ad"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "6bc0ab13ba74",
+      "os_user" : "root",
+      "tasy_user" : "jfperet"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 40415,
+      "old_value" : 40415
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 40415,
+      "old_value" : 40415
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 27252,
+      "old_value" : 27252
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DS_ITEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Descri\u00e7\u00e3o 2",
+      "old_value" : "Descri\u00e7\u00e3o"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "11/02/2026 13:54:11",
+      "old_value" : "11/02/2026 13:52:34"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "11/02/2026 13:54:27",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 500010,
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "jfperet",
+      "guid" : "61ccf228-b7be-4c3e-bc42-d6f3b2ad84e3"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "6bc0ab13ba74",
+      "os_user" : "root",
+      "tasy_user" : "jfperet"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 40416,
+      "old_value" : 40416
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 40416,
+      "old_value" : 40416
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 27252,
+      "old_value" : 27252
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DS_ITEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Usuario 2",
+      "old_value" : "Usuario"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "11/02/2026 13:54:18",
+      "old_value" : "11/02/2026 13:53:04"
+    } ]
+  } ]
+}
