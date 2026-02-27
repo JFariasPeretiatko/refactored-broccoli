@@ -1,0 +1,36 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE PROCEDURE CMDKLTD_123\nTESTAS\n/",
+    "NR_SEQUENCIA" : "10169737",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PROCEDURE",
+    "DT_ATUALIZACAO" : "13/02/2026 14:21:53",
+    "NM_OBJETO" : "CMDKLTD_123",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "DS_SCRIPT_CRIACAO" : "CREATE FUNCTION CMDKLTD_123X\nMONSTER\n/",
+    "NR_SEQUENCIA" : "10169739",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "13/02/2026 15:29:00",
+    "NM_OBJETO" : "CMDKLTD_123X",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "DELETE",
+    "DS_SCRIPT_CRIACAO" : "CREATE FUNCTION CMDKLTD_WT\n/",
+    "NR_SEQUENCIA" : "10169738",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "13/02/2026 15:03:03",
+    "NM_OBJETO" : "CMDKLTD_WT",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
