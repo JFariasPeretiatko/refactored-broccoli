@@ -1,68 +1,95 @@
 {
   "DIC_EXPRESSAO" : [ {
     "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "09/02/2026 15:27:33",
+    "DT_ATUALIZACAO_NREC" : "23/02/2026 11:54:53",
     "DIC_EXPRESSAO_IDIOMA" : [ {
       "$operation" : "CREATE",
-      "DT_ATUALIZACAO_NREC" : "09/02/2026 15:27:33",
+      "DT_ATUALIZACAO_NREC" : "23/02/2026 11:54:53",
+      "DS_LOCALE" : "en_US",
+      "DS_IDIOMA" : "en",
+      "NR_SEQUENCIA" : "27226",
+      "NM_USUARIO" : "naruto",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "naruto",
+      "CD_EXPRESSAO" : "1149674",
+      "DS_EXPRESSAO" : "Expression for testing",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "23/02/2026 11:54:53"
+    }, {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "23/02/2026 11:54:53",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1148710",
+      "NR_SEQUENCIA" : "1149674",
       "NM_USUARIO" : "jfperet",
       "IE_SITUACAO" : "A",
       "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1148710",
-      "DS_EXPRESSAO" : "Expressao teste geral",
+      "CD_EXPRESSAO" : "1149674",
+      "DS_EXPRESSAO" : "Expressao teste",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/02/2026 15:27:33"
+      "DT_ATUALIZACAO" : "23/02/2026 11:54:53"
     } ],
     "DS_GLOSSARIO" : "Expressao teste geral",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1148710",
-    "DT_ATUALIZACAO" : "09/02/2026 15:27:33"
+    "CD_EXPRESSAO" : "1149674",
+    "DT_ATUALIZACAO" : "23/02/2026 11:54:53"
   }, {
-    "$operation" : "DELETE",
-    "DT_ATUALIZACAO_NREC" : "2026-02-24 11:19:50",
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "23/02/2026 14:03:57",
     "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "DELETE",
-      "DT_ATUALIZACAO_NREC" : "2026-02-24 11:19:50",
-      "DS_LOCALE" : "pt_BR",
-      "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1148711",
-      "NM_USUARIO" : "jfperet",
-      "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1148711",
-      "DS_EXPRESSAO" : "Expressao teste expressao 2",
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "23/02/2026 14:03:57",
+      "DS_LOCALE" : "en_US",
+      "DS_IDIOMA" : "en",
+      "NR_SEQUENCIA" : "27228",
+      "NM_USUARIO" : "naruto",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "naruto",
+      "CD_EXPRESSAO" : "1149678",
+      "DS_EXPRESSAO" : "English",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "2026-02-24 11:19:50"
-    } ],
-    "DS_GLOSSARIO" : "Expressao teste expressao",
-    "NM_USUARIO" : "jfperet",
-    "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1148711",
-    "DT_ATUALIZACAO" : "2026-02-24 11:19:50"
-  }, {
-    "$operation" : "MERGE",
-    "DT_ATUALIZACAO_NREC" : "24/02/2026 11:19:19",
-    "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "MERGE",
-      "DT_ATUALIZACAO_NREC" : "24/02/2026 11:19:19",
+      "DT_ATUALIZACAO" : "23/02/2026 14:03:57"
+    }, {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "23/02/2026 14:03:57",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1149766",
+      "NR_SEQUENCIA" : "1149678",
       "NM_USUARIO" : "jfperet",
       "IE_SITUACAO" : "A",
       "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1149766",
-      "DS_EXPRESSAO" : "Teste expressao geral DEV ",
+      "CD_EXPRESSAO" : "1149678",
+      "DS_EXPRESSAO" : "Expressao | Teste",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "24/02/2026 11:19:19"
+      "DT_ATUALIZACAO" : "23/02/2026 14:03:57"
     } ],
-    "DS_GLOSSARIO" : "Teste de express\u00f5es depois da refatora\u00e7\u00e3o",
+    "DS_GLOSSARIO" : "INOVA\u00c7\u00c3O | EXPRESSAO | TEST",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1149766",
-    "DT_ATUALIZACAO" : "24/02/2026 11:19:19"
+    "CD_EXPRESSAO" : "1149678",
+    "DT_ATUALIZACAO" : "23/02/2026 14:03:57"
+  }, {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "27/02/2026 11:37:04",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "UPDATE",
+      "DT_ATUALIZACAO_NREC" : "27/02/2026 11:37:04",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1149979",
+      "NM_USUARIO" : "jfperet",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "jfperet",
+      "CD_EXPRESSAO" : "1149979",
+      "DS_EXPRESSAO" : "Dipirona",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "27/02/2026 11:37:04"
+    } ],
+    "DS_GLOSSARIO" : "Dipirona descri\u00e7\u00e3o idiomas ed",
+    "NM_USUARIO" : "jfperet",
+    "NM_USUARIO_NREC" : "jfperet",
+    "CD_EXPRESSAO" : "1149979",
+    "DT_ATUALIZACAO" : "27/02/2026 11:37:03"
   } ]
 }
