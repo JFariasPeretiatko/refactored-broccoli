@@ -1,68 +1,36 @@
 {
   "DIC_EXPRESSAO" : [ {
-    "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "09/02/2026 15:27:33",
-    "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "CREATE",
-      "DT_ATUALIZACAO_NREC" : "09/02/2026 15:27:33",
-      "DS_LOCALE" : "pt_BR",
-      "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1148710",
-      "NM_USUARIO" : "jfperet",
-      "IE_SITUACAO" : "A",
-      "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1148710",
-      "DS_EXPRESSAO" : "Expressao teste geral",
-      "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "09/02/2026 15:27:33"
-    } ],
-    "DS_GLOSSARIO" : "Expressao teste geral",
-    "NM_USUARIO" : "jfperet",
-    "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1148710",
-    "DT_ATUALIZACAO" : "09/02/2026 15:27:33"
-  }, {
     "$operation" : "DELETE",
-    "DT_ATUALIZACAO_NREC" : "2026-02-24 11:19:50",
+    "DT_ATUALIZACAO_NREC" : "02/03/2026 15:15:54",
     "DIC_EXPRESSAO_IDIOMA" : [ {
       "$operation" : "DELETE",
-      "DT_ATUALIZACAO_NREC" : "2026-02-24 11:19:50",
-      "DS_LOCALE" : "pt_BR",
-      "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1148711",
+      "DT_ATUALIZACAO_NREC" : "02/03/2026 13:15:07",
+      "DS_LOCALE" : "en_AU",
+      "DS_IDIOMA" : "en",
+      "NR_SEQUENCIA" : "27350",
       "NM_USUARIO" : "jfperet",
       "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1148711",
-      "DS_EXPRESSAO" : "Expressao teste expressao 2",
+      "CD_EXPRESSAO" : "1150012",
+      "DS_EXPRESSAO" : "10 Nova expressao teste",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "2026-02-24 11:19:50"
-    } ],
-    "DS_GLOSSARIO" : "Expressao teste expressao",
-    "NM_USUARIO" : "jfperet",
-    "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1148711",
-    "DT_ATUALIZACAO" : "2026-02-24 11:19:50"
-  }, {
-    "$operation" : "MERGE",
-    "DT_ATUALIZACAO_NREC" : "24/02/2026 11:19:19",
-    "DIC_EXPRESSAO_IDIOMA" : [ {
-      "$operation" : "MERGE",
-      "DT_ATUALIZACAO_NREC" : "24/02/2026 11:19:19",
+      "DT_ATUALIZACAO" : "02/03/2026 13:15:07"
+    }, {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "02/03/2026 15:15:55",
       "DS_LOCALE" : "pt_BR",
       "DS_IDIOMA" : "pt",
-      "NR_SEQUENCIA" : "1149766",
+      "NR_SEQUENCIA" : "1150012",
       "NM_USUARIO" : "jfperet",
-      "IE_SITUACAO" : "A",
-      "NM_USUARIO_NREC" : "jfperet",
-      "CD_EXPRESSAO" : "1149766",
-      "DS_EXPRESSAO" : "Teste expressao geral DEV ",
+      "NM_USUARIO_NREC" : "naruto",
+      "CD_EXPRESSAO" : "1150012",
+      "DS_EXPRESSAO" : "10 Nova expressao teste",
       "DS_LAYER" : "CORE.CMDK_LTDA",
-      "DT_ATUALIZACAO" : "24/02/2026 11:19:19"
+      "DT_ATUALIZACAO" : "02/03/2026 15:15:54"
     } ],
-    "DS_GLOSSARIO" : "Teste de express\u00f5es depois da refatora\u00e7\u00e3o",
+    "DS_GLOSSARIO" : "10 nova expressao teste",
     "NM_USUARIO" : "jfperet",
     "NM_USUARIO_NREC" : "jfperet",
-    "CD_EXPRESSAO" : "1149766",
-    "DT_ATUALIZACAO" : "24/02/2026 11:19:19"
+    "CD_EXPRESSAO" : "1150012",
+    "DT_ATUALIZACAO" : "02/03/2026 15:15:54"
   } ]
 }
