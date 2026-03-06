@@ -1,0 +1,15 @@
+{
+  "CMDK_OBJECT_INTERCEPTOR" : [ {
+    "$operation" : "DELETE",
+    "NM_OBJECT" : "ACERTAR_DUPLIC_PRONT_ESTAB",
+    "NR_SEQUENCIA" : "3563",
+    "NM_USUARIO" : "jfperet",
+    "DT_ATUALIZACAO" : "13/02/2026 16:43:14"
+  }, {
+    "$operation" : "CREATE",
+    "NM_OBJECT" : "ACERTAR_DUPLIC_PRONT_ESTAB",
+    "NR_SEQUENCIA" : "9114",
+    "NM_USUARIO" : "jfperet",
+    "DT_ATUALIZACAO" : "13/02/2026 16:43:30"
+  } ]
+}
