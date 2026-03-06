@@ -1,0 +1,51 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "06/03/2026 11:39:14",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 9701,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "jfperet",
+      "guid" : "d19385fd-e94d-439f-9f0e-2daf7b889dc9"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : null,
+      "os_user" : "user",
+      "tasy_user" : "jfperet"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 27499,
+      "old_value" : 27499
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Teste express\u00e3o 2",
+      "old_value" : "Teste express\u00e3o"
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "2",
+      "old_value" : "2"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 27499,
+      "old_value" : 27499
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "06/03/2026 11:27:33",
+      "old_value" : "06/03/2026 11:18:41"
+    } ]
+  } ]
+}
