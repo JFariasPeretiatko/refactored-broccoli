@@ -1,0 +1,58 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "UPDATE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE TRIGGER CMDKLTDA_TRIGGERTEST_0012\nBEFORE INSERT ON CMDKLTD_ACAO_CE\nFOR EACH ROW\nBEGIN\n    IF :NEW.DS_VALOR_CUSTOM = 1 THEN\n        :NEW.NRTEST := 11;\n    \n    ELSIF :NEW.DS_VALOR_CUSTOM = 2 THEN\n        :NEW.DS_VALOR_CUSTOM := 22; \n    \n    ELSIF :NEW.DS_VALOR_CUSTOM = 3 THEN\n        :NEW.DS_VALOR_CUSTOM := 33;\n    \n    END IF;\nEND;\n/",
+    "NR_SEQUENCIA" : "10178537",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "TRIGGER",
+    "DT_ATUALIZACAO" : "11/06/2026 14:48:41",
+    "NM_OBJETO" : "CMDKLTDA_TRIGGERTEST_0012",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "DELETE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PACKAGE CMDKLTDA_P_MAT AS\n\n    FUNCTION soma(\n        p_num1 NUMBER,\n        p_num2 NUMBER\n    ) RETURN NUMBER;\n\n    FUNCTION multiplicar(\n        p_num1 NUMBER,\n        p_num2 NUMBER\n    ) RETURN NUMBER;\n\nEND CMDKLTDA_P_MAT;\n/\nCREATE OR REPLACE PACKAGE BODY CMDKLTDA_P_MAT AS\n\n    FUNCTION soma(\n        p_num1 NUMBER,\n        p_num2 NUMBER\n    ) RETURN NUMBER IS\n    BEGIN\n        RETURN p_num1 + p_num2;\n    END;\n\n    FUNCTION multiplicar(\n        p_num1 NUMBER,\n        p_num2 NUMBER\n    ) RETURN NUMBER IS\n    BEGIN\n        RETURN p_num1 * p_num2;\n    END;\n\nEND CMDKLTDA_P_MAT;\n/",
+    "NR_SEQUENCIA" : "10183539",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PACKAGE",
+    "DT_ATUALIZACAO" : "15/07/2026 11:16:55",
+    "NM_OBJETO" : "CMDKLTDA_P_MAT",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "DELETE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PACKAGE CMDKLTDA_P_PRODC AS\n\n    PROCEDURE atualizar_nome(\n        p_id   NUMBER,\n        p_nome VARCHAR2\n    );\n\nEND CMDKLTDA_P_PRODC;/\nCREATE OR REPLACE PACKAGE BODY CMDKLTDA_P_PRODC AS\n\n    PROCEDURE atualizar_nome(\n        p_id   NUMBER,\n        p_nome VARCHAR2\n    ) IS\n    BEGIN\n        CMDKLTDA_OW_DEP;\n        GRAVAR_LOG_TASY(p_id, 'Teste procedure', p_nome);\n\n    END;\n\nEND CMDKLTDA_P_PRODC;\n/",
+    "NR_SEQUENCIA" : "10183660",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PACKAGE",
+    "DT_ATUALIZACAO" : "17/07/2026 16:21:24",
+    "NM_OBJETO" : "CMDKLTDA_P_PRODC",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "DELETE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PACKAGE CMDKLTDA_P_PRODC2 AS\n\n    PROCEDURE atualizar_nome(\n        p_id   NUMBER,\n        p_nome VARCHAR2\n    );\n\nEND CMDKLTDA_P_PRODC2;\n/\nCREATE OR REPLACE PACKAGE BODY CMDKLTDA_P_PRODC2 AS\n\n    PROCEDURE atualizar_nome(\n        p_id   NUMBER,\n        p_nome VARCHAR2\n    ) IS\n    BEGIN\n\n        GRAVAR_LOG_TASY(p_id, 'Teste procedure', p_nome);\n        CMDKLTDA_OW_DEP;\n    END;\n\nEND CMDKLTDA_P_PRODC2;\n/",
+    "NR_SEQUENCIA" : "10183658",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PACKAGE",
+    "DT_ATUALIZACAO" : "17/07/2026 16:18:04",
+    "NM_OBJETO" : "CMDKLTDA_P_PRODC2",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PROCEDURE CMDKLTDA_OW_DEP IS\nBEGIN\nCMDKLTDA_P_PRODC.atualizar_nome(1, 'jfperet');\nEND;\n/",
+    "NR_SEQUENCIA" : "10183659",
+    "NM_USUARIO" : "jfperet",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PROCEDURE",
+    "DT_ATUALIZACAO" : "17/07/2026 16:18:47",
+    "NM_OBJETO" : "CMDKLTDA_OW_DEP",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
